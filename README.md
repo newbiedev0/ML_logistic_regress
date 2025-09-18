@@ -1,9 +1,6 @@
 ML-Powered Employee Analytics Dashboard
 This project provides a comprehensive solution for predicting employee attrition and performance ratings using a Streamlit-based web application. The dashboard is powered by machine learning models trained on the Employee-Attrition.csv dataset.
 
-Project Overview
-The core of this project is a two-part system:
-
 Model Training (model_build.py): This script cleans the data, preprocesses it using pipelines (including a custom Winsorization function), and trains two separate Logistic Regression models for attrition and performance prediction. The trained models are saved as performance_model.pkl and attrition_model.pkl.
 
 Interactive Web Dashboard (mlapp.py): This Streamlit application loads the trained models and presents a user-friendly interface. Users can input various employee data points and receive real-time predictions for both attrition and performance rating. The application is designed with two distinct tabs, making it easy to switch between prediction tasks.
